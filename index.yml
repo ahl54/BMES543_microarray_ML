@@ -1,0 +1,11 @@
+title: Classification and gene selection of microarray data using Neural Networks and AdaBoost
+authors: Anna Lu, Yang Wan
+abstract: Gene classification is a common task in expression studies. However, univariate gene selection  
+by ranking is inaccurate, insufficient for multiclass microarray data. AdaBoost and Neural Networks are  
+proposed as more robust methods for microarray data classification appropriate for multi-class problems.  
+MATLAB’s built-in neural network library and AdaBoost in MATLAB’s Classification Learning App are used to  
+assess the error rate in classification of three microarray datasets: leukaemia, brain, and NCI 60 human  
+tumor cell lines. These three microarray data sets are selected for their variable number of classes.  
+Findings show that AdaBoost provides greater accuracy than neural network for the three selected microarray  
+datasets. Both AdaBoost and neural network are robust to variable number of classes: two, five, and eight  
+for leukemia, brain, and NCI 60 respectively.
